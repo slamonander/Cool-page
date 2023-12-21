@@ -9,6 +9,23 @@ body {
     height: 100vh;
 }
 
+/* headers */
+h1 {
+    margin: 0vh;
+    animation: fadeIn 1s ease-in;
+}
+
+h2 {
+    opacity: 0;
+    animation: fadeIn 1s ease-in 2s forwards;
+}
+
+.colored {
+    color: #fc3d39;
+}
+
+/* buttons */
+
 button {
     background-color: #EAE6DF;
     padding: 15px 35px;
@@ -28,6 +45,17 @@ button:hover {
     cursor: pointer;
 }
 
+/* time */
+
 #time {
     font-size: 8;
+}
+
+/* keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
 }

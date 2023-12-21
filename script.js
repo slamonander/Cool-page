@@ -25,7 +25,8 @@ function setGreeting() {
         'we\'re here for you.',
         'chase your dreams.',
         'talk. i\'ll listen.',
-        'you\'re not alone.'
+        'you\'re not alone.',
+        'what\'s on your mind?'
     ]
 
     var randomNum = Math.floor(Math.random() * (quotes.length));
